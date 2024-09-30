@@ -1,0 +1,12 @@
+C:\GIT\CreativeProject\Risovalka\Risovalka\x64\Debug\Risovalka.vcxproj.AssemblyReference.cache
+C:\GIT\CreativeProject\Risovalka\Risovalka\x64\Debug\Risovalka.MyForm.resources
+C:\GIT\CreativeProject\Risovalka\Risovalka\x64\Debug\Risovalka.vcxproj.GenerateResource.cache
+C:\ARM_git\CreativeProject\Risovalka\Risovalka\x64\Debug\Risovalka.vcxproj.AssemblyReference.cache
+C:\ARM_git\CreativeProject\Risovalka\Risovalka\x64\Debug\Risovalka.MyForm.resources
+C:\ARM_git\CreativeProject\Risovalka\Risovalka\x64\Debug\Risovalka.vcxproj.GenerateResource.cache
+C:\GIT\CreativeProjectAlmost\Risovalka\Risovalka\x64\Debug\Risovalka.vcxproj.AssemblyReference.cache
+C:\GIT\CreativeProjectAlmost\Risovalka\Risovalka\x64\Debug\Risovalka.MyForm.resources
+C:\GIT\CreativeProjectAlmost\Risovalka\Risovalka\x64\Debug\Risovalka.vcxproj.GenerateResource.cache
+C:\Разное\Файлы\C++ Projects\CreativeProjectAlmost-main\Risovalka\Risovalka\x64\Debug\Risovalka.vcxproj.AssemblyReference.cache
+C:\Разное\Файлы\C++ Projects\CreativeProjectAlmost-main\Risovalka\Risovalka\x64\Debug\Risovalka.MyForm.resources
+C:\Разное\Файлы\C++ Projects\CreativeProjectAlmost-main\Risovalka\Risovalka\x64\Debug\Risovalka.vcxproj.GenerateResource.cache

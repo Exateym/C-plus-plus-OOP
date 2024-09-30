@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{5B93E285-7DE1-47DB-8CE8-5C1EC09C3C07}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>Risovalka</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Events\Brush options events\Color\ButtonPurple_Click.cpp" />
+    <ClCompile Include="Events\Brush options events\Color\ButtonBlue_Click.cpp" />
+    <ClCompile Include="Events\Brush options events\Color\ButtonCyan_Click.cpp" />
+    <ClCompile Include="Events\Brush options events\Color\ButtonGreen_Click.cpp" />
+    <ClCompile Include="Events\Brush options events\Color\ButtonOrange_Click.cpp" />
+    <ClCompile Include="Events\Brush options events\Color\ButtonRed_Click.cpp" />
+    <ClCompile Include="Events\Brush options events\Color\ButtonYellow_Click.cpp" />
+    <ClCompile Include="Events\Brush options events\Shape\numericUpDownBrushSize_ValueChanged.cpp" />
+    <ClCompile Include="Events\Brush options events\Shape\numericUpDownLength_ValueChanged.cpp" />
+    <ClCompile Include="Events\Brush options events\Shape\numericUpDownWidth_ValueChanged.cpp" />
+    <ClCompile Include="Events\Brush options events\Shape\radioButtonCircle_CheckedChanged.cpp" />
+    <ClCompile Include="Events\Brush options events\Shape\radioButtonDraw_CheckedChanged.cpp" />
+    <ClCompile Include="Events\Brush options events\Shape\radioButtonErase_CheckedChanged.cpp" />
+    <ClCompile Include="Events\Brush options events\Shape\radioButtonLine_CheckedChanged.cpp" />
+    <ClCompile Include="Events\Brush options events\Shape\radioButtonSquare_CheckedChanged.cpp" />
+    <ClCompile Include="Events\Brush options events\Shape\radioButtonTriangle_CheckedChanged.cpp" />
+    <ClCompile Include="Events\Brush options events\Sound\comboBoxInstruments_SelectedIndexChanged.cpp" />
+    <ClCompile Include="Events\buttonCloseCreateCanvas_Click.cpp" />
+    <ClCompile Include="Events\buttonCreate_Click.cpp" />
+    <ClCompile Include="Events\Canvas events\pictureBoxCanvas_MouseDown.cpp" />
+    <ClCompile Include="Events\Canvas events\pictureBoxCanvas_MouseMove.cpp" />
+    <ClCompile Include="Events\Canvas events\pictureBoxCanvas_MouseUp.cpp" />
+    <ClCompile Include="Events\Canvas events\pictureBoxCanvas_Paint.cpp" />
+    <ClCompile Include="Events\Canvas events\pictureBoxCanvas_SizeChanged.cpp" />
+    <ClCompile Include="Events\Canvas menu\canvasToolStripMenuItem_Click.cpp" />
+    <ClCompile Include="Events\Canvas menu\clearCanvasToolStripMenuItem_Click.cpp" />
+    <ClCompile Include="Events\Canvas menu\createToolStripMenuItem_Click.cpp" />
+    <ClCompile Include="Events\Canvas menu\openFileToolStripMenuItem_Click.cpp" />
+    <ClCompile Include="Events\Canvas menu\saveAsToolStripMenuItem_Click.cpp" />
+    <ClCompile Include="Events\Localization events\englishToolStripMenuItem.cpp" />
+    <ClCompile Include="Events\Localization events\russianToolStripMenuItem.cpp" />
+    <ClCompile Include="Events\Sound menu\freeToolStripMenuItem_Click.cpp" />
+    <ClCompile Include="Events\Sound menu\steptsToolStripMenuItem_Click.cpp" />
+    <ClCompile Include="Events\Sound Visualisation\buttonShowVisualisation_Click.cpp" />
+    <ClCompile Include="Events\Sound Visualisation\buttonSoundDiagram_Click.cpp" />
+    <ClCompile Include="Events\Sound Visualisation\comboBoxSoundDiagramInstrument_SelectedIndexChanged.cpp" />
+    <ClCompile Include="Events\Sound Visualisation\numericUpDownSoundDiagramOctave_ValueChanged.cpp" />
+    <ClCompile Include="Events\Test knowledge\buttonCheckResult_Click.cpp">
+      <DeploymentContent>false</DeploymentContent>
+    </ClCompile>
+    <ClCompile Include="Events\Test knowledge\buttonCloseTest_Click.cpp" />
+    <ClCompile Include="Events\Test knowledge\buttonStartGame_Click.cpp" />
+    <ClCompile Include="Events\Test knowledge\exerciseToolStripMenuItem_Click.cpp" />
+    <ClCompile Include="Events\Test knowledge\testToolStripMenuItem_Click.cpp" />
+    <ClCompile Include="MyForm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyForm.resx">
+      <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\ColorMain\Campfire.png" />
+    <Image Include="..\ColorMain\ColorsForNotes.png" />
+    <Image Include="..\ColorMain\Eraser.png" />
+    <Image Include="..\ColorMain\Lava.png" />
+    <Image Include="..\ColorMain\Leaves.png" />
+    <Image Include="..\ColorMain\Lightning.png" />
+    <Image Include="..\ColorMain\Marimba.png" />
+    <Image Include="..\ColorMain\Nature.png" />
+    <Image Include="..\ColorMain\None.png" />
+    <Image Include="..\ColorMain\Notes.png" />
+    <Image Include="..\ColorMain\Ocean.png" />
+    <Image Include="..\ColorMain\Octave1-3.png" />
+    <Image Include="..\ColorMain\Octave4-5.png" />
+    <Image Include="..\ColorMain\Octave6-7.png" />
+    <Image Include="..\ColorMain\OctaveChosen1.png" />
+    <Image Include="..\ColorMain\OctaveChosen2.png" />
+    <Image Include="..\ColorMain\OctaveChosen3.png" />
+    <Image Include="..\ColorMain\OctaveChosen4.png" />
+    <Image Include="..\ColorMain\OctaveChosen5.png" />
+    <Image Include="..\ColorMain\OctaveChosen6.png" />
+    <Image Include="..\ColorMain\OctaveChosen7.png" />
+    <Image Include="..\ColorMain\Piano.png" />
+    <Image Include="..\ColorMain\Snow.png" />
+    <Image Include="..\ColorMain\String.png" />
+    <Image Include="..\ColorMain\Thunder.png" />
+    <Image Include="..\ColorMain\WoodWind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ColorMain\MusicalInstrument.psd" />
+    <None Include="..\ColorMain\Palette.psd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\ColorMain\Значения цветов в HEX формате.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba1A.wav" />
+    <Media Include="..\ColorMain\MarimbaAll\Marimba1B.wav" />
+    <Media Include="..\ColorMain\MarimbaAll\Marimba1C.wav" />
+    <Media Include="..\ColorMain\MarimbaAll\Marimba1D.wav" />
+    <Media Include="..\ColorMain\MarimbaAll\Marimba1E.wav" />
+    <Media Include="..\ColorMain\MarimbaAll\Marimba1F.wav" />
+    <Media Include="..\ColorMain\MarimbaAll\Marimba1G.wav" />
+    <Media Include="..\ColorMain\MarimbaAll\Marimba2A.wav" />
+    <Media Include="..\ColorMain\MarimbaAll\Marimba2B.wav" />
+    <Media Include="..\ColorMain\MarimbaAll\Marimba2C.wav" />
+    <Media Include="..\ColorMain\MarimbaAll\Marimba2D.wav" />
+    <Media Include="..\ColorMain\MarimbaAll\Marimba2E.wav" />
+    <Media Include="..\ColorMain\MarimbaAll\Marimba2F.wav" />
+    <Media Include="..\ColorMain\MarimbaAll\Marimba2G.wav" />
+    <Media Include="..\ColorMain\MarimbaAll\Marimba3A.wav" />
+    <Media Include="..\ColorMain\MarimbaAll\Marimba3B.wav" />
+    <Media Include="..\ColorMain\MarimbaAll\Marimba3C.wav" />
+    <Media Include="..\ColorMain\MarimbaAll\Marimba3D.wav" />
+    <Media Include="..\ColorMain\MarimbaAll\Marimba3E.wav" />
+    <Media Include="..\ColorMain\MarimbaAll\Marimba3F.wav" />
+    <Media Include="..\ColorMain\MarimbaAll\Marimba3G.wav" />
+    <Media Include="..\ColorMain\Marimba\MarimbaA.wav" />
+    <Media Include="..\ColorMain\Marimba\MarimbaB.wav" />
+    <Media Include="..\ColorMain\Marimba\MarimbaC.wav" />
+    <Media Include="..\ColorMain\Marimba\MarimbaD.wav" />
+    <Media Include="..\ColorMain\Marimba\MarimbaE.wav" />
+    <Media Include="..\ColorMain\Marimba\MarimbaF.wav" />
+    <Media Include="..\ColorMain\Marimba\MarimbaG.wav" />
+    <Media Include="..\ColorMain\Nature\Campfire.wav" />
+    <Media Include="..\ColorMain\Nature\Lava.wav" />
+    <Media Include="..\ColorMain\Nature\Leaves.wav" />
+    <Media Include="..\ColorMain\Nature\Lightning.wav" />
+    <Media Include="..\ColorMain\Nature\SnowStep.wav" />
+    <Media Include="..\ColorMain\Nature\ThunderNRain.wav" />
+    <Media Include="..\ColorMain\Nature\Water.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano1A.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano1B.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano1C.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano1D.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano1E.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano1F.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano1G.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano2A.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano2B.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano2C.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano2D.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano2E.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano2F.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano2G.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano3A.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano3B.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano3C.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano3D.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano3E.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano3F.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano3G.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano4A.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano4B.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano4C.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano4D.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano4E.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano4F.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano4G.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano5A.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano5B.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano5C.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano5D.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano5E.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano5F.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano5G.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano6A.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano6B.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano6C.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano6D.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano6E.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano6F.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano6G.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano7A.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano7B.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano7C.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano7D.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano7E.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano7F.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano7G.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano8A.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano8B.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano8C.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano8D.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano8E.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano8F.wav" />
+    <Media Include="..\ColorMain\PianoAll\Piano8G.wav" />
+    <Media Include="..\ColorMain\Piano\PianoA.wav" />
+    <Media Include="..\ColorMain\Piano\PianoB.wav" />
+    <Media Include="..\ColorMain\Piano\PianoC.wav" />
+    <Media Include="..\ColorMain\Piano\PianoD.wav" />
+    <Media Include="..\ColorMain\Piano\PianoE.wav" />
+    <Media Include="..\ColorMain\Piano\PianoF.wav" />
+    <Media Include="..\ColorMain\Piano\PianoG.wav" />
+    <Media Include="..\ColorMain\String\StringA.wav" />
+    <Media Include="..\ColorMain\String\StringB.wav" />
+    <Media Include="..\ColorMain\String\StringC.wav" />
+    <Media Include="..\ColorMain\String\StringD.wav" />
+    <Media Include="..\ColorMain\String\StringE.wav" />
+    <Media Include="..\ColorMain\String\StringF.wav" />
+    <Media Include="..\ColorMain\String\StringG.wav" />
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind4A.wav" />
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind4B.wav" />
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind4C.wav" />
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind4D.wav" />
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind4E.wav" />
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind4F.wav" />
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind4G.wav" />
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind5A.wav" />
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind5B.wav" />
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind5C.wav" />
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind5D.wav" />
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind5E.wav" />
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind5F.wav" />
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind5G.wav" />
+    <Media Include="..\ColorMain\WoodWind\WoodWindA.wav" />
+    <Media Include="..\ColorMain\WoodWind\WoodWindB.wav" />
+    <Media Include="..\ColorMain\WoodWind\WoodWindC.wav" />
+    <Media Include="..\ColorMain\WoodWind\WoodWindD.wav" />
+    <Media Include="..\ColorMain\WoodWind\WoodWindE.wav" />
+    <Media Include="..\ColorMain\WoodWind\WoodWindF.wav" />
+    <Media Include="..\ColorMain\WoodWind\WoodWindG.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

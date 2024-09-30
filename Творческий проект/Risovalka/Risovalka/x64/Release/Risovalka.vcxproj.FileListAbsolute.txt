@@ -1,0 +1,15 @@
+C:\GIT\CreativeProjectAlmost\Risovalka\Risovalka\x64\Release\Risovalka.vcxproj.AssemblyReference.cache
+C:\GIT\CreativeProjectAlmost\Risovalka\Risovalka\x64\Release\Risovalka.MyForm.resources
+C:\GIT\CreativeProjectAlmost\Risovalka\Risovalka\x64\Release\Risovalka.vcxproj.GenerateResource.cache
+B:\GIT\CreativeProjectAlmost\Risovalka\Risovalka\x64\Release\Risovalka.vcxproj.AssemblyReference.cache
+B:\GIT\CreativeProjectAlmost\Risovalka\Risovalka\x64\Release\Risovalka.MyForm.resources
+B:\GIT\CreativeProjectAlmost\Risovalka\Risovalka\x64\Release\Risovalka.vcxproj.GenerateResource.cache
+C:\Разное\Файлы\C++ Projects\CreativeProjectAlmost-main\Risovalka\Risovalka\x64\Release\Risovalka.vcxproj.AssemblyReference.cache
+C:\Разное\Файлы\C++ Projects\CreativeProjectAlmost-main\Risovalka\Risovalka\x64\Release\Risovalka.MyForm.resources
+C:\Разное\Файлы\C++ Projects\CreativeProjectAlmost-main\Risovalka\Risovalka\x64\Release\Risovalka.vcxproj.GenerateResource.cache
+B:\GIT\MainProject\ProjectColorMain\CreativeProjectAlmost-main\Risovalka\Risovalka\x64\Release\Risovalka.vcxproj.AssemblyReference.cache
+B:\GIT\MainProject\ProjectColorMain\CreativeProjectAlmost-main\Risovalka\Risovalka\x64\Release\Risovalka.MyForm.resources
+B:\GIT\MainProject\ProjectColorMain\CreativeProjectAlmost-main\Risovalka\Risovalka\x64\Release\Risovalka.vcxproj.GenerateResource.cache
+C:\Users\Егор\Desktop\SoundSplash\ProjectColorMain\CreativeProjectAlmost-main\Risovalka\Risovalka\x64\Release\Risovalka.vcxproj.AssemblyReference.cache
+C:\Users\Егор\Desktop\SoundSplash\ProjectColorMain\CreativeProjectAlmost-main\Risovalka\Risovalka\x64\Release\Risovalka.MyForm.resources
+C:\Users\Егор\Desktop\SoundSplash\ProjectColorMain\CreativeProjectAlmost-main\Risovalka\Risovalka\x64\Release\Risovalka.vcxproj.GenerateResource.cache

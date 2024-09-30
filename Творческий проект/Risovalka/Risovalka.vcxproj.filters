@@ -1,0 +1,626 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Canvas menu\saveAsToolStripMenuItem_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Canvas menu\openFileToolStripMenuItem_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Canvas menu\clearCanvasToolStripMenuItem_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Canvas menu\canvasToolStripMenuItem_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Sound menu\freeToolStripMenuItem_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Sound menu\steptsToolStripMenuItem_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Brush options events\Sound\comboBoxInstruments_SelectedIndexChanged.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Brush options events\Shape\numericUpDownBrushSize_ValueChanged.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Brush options events\Shape\numericUpDownLength_ValueChanged.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Brush options events\Shape\numericUpDownWidth_ValueChanged.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Brush options events\Shape\radioButtonCircle_CheckedChanged.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Brush options events\Shape\radioButtonDraw_CheckedChanged.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Brush options events\Shape\radioButtonErase_CheckedChanged.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Brush options events\Shape\radioButtonLine_CheckedChanged.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Brush options events\Shape\radioButtonSquare_CheckedChanged.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Brush options events\Shape\radioButtonTriangle_CheckedChanged.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Brush options events\Color\ButtonPurple_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Brush options events\Color\ButtonBlue_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Brush options events\Color\ButtonCyan_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Brush options events\Color\ButtonGreen_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Brush options events\Color\ButtonOrange_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Brush options events\Color\ButtonRed_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Brush options events\Color\ButtonYellow_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Canvas events\pictureBoxCanvas_MouseDown.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Canvas events\pictureBoxCanvas_MouseMove.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Canvas events\pictureBoxCanvas_MouseUp.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Canvas events\pictureBoxCanvas_Paint.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Canvas events\pictureBoxCanvas_SizeChanged.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Canvas menu\createToolStripMenuItem_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\buttonCreate_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Sound Visualisation\buttonShowVisualisation_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Sound Visualisation\buttonSoundDiagram_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Sound Visualisation\comboBoxSoundDiagramInstrument_SelectedIndexChanged.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Sound Visualisation\numericUpDownSoundDiagramOctave_ValueChanged.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Test knowledge\exerciseToolStripMenuItem_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Test knowledge\buttonStartGame_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Test knowledge\buttonCheckResult_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Localization events\englishToolStripMenuItem.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Localization events\russianToolStripMenuItem.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Test knowledge\testToolStripMenuItem_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Test knowledge\buttonCloseTest_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\buttonCloseCreateCanvas_Click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\ColorMain\Campfire.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\ColorsForNotes.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\Eraser.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\Lava.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\Leaves.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\Lightning.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\Marimba.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\Nature.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\None.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\Notes.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\Ocean.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\Octave1-3.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\Octave4-5.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\Octave6-7.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\OctaveChosen1.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\OctaveChosen2.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\OctaveChosen3.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\OctaveChosen4.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\OctaveChosen5.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\OctaveChosen6.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\OctaveChosen7.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\Piano.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\Snow.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\String.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\Thunder.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\ColorMain\WoodWind.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ColorMain\MusicalInstrument.psd">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="..\ColorMain\Palette.psd">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\ColorMain\Значения цветов в HEX формате.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind4A.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind4B.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind4C.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind4D.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind4E.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind4F.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind4G.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind5A.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind5B.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind5C.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind5D.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind5E.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind5F.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\WoodWindAll\WoodWind5G.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\Marimba\MarimbaA.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\Marimba\MarimbaB.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\Marimba\MarimbaC.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\Marimba\MarimbaD.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\Marimba\MarimbaE.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\Marimba\MarimbaF.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\Marimba\MarimbaG.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba1A.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba1B.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba1C.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba1D.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba1E.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba1F.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba1G.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba2A.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba2B.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba2C.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba2D.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba2E.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba2F.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba2G.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba3A.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba3B.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba3C.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba3D.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba3E.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba3F.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\MarimbaAll\Marimba3G.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\Nature\Campfire.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\Nature\Lava.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\Nature\Leaves.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\Nature\Lightning.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\Nature\SnowStep.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\Nature\ThunderNRain.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\Nature\Water.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\Piano\PianoA.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\Piano\PianoB.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\Piano\PianoC.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\Piano\PianoD.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\Piano\PianoE.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\Piano\PianoF.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\Piano\PianoG.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano1A.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano1B.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano1C.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano1D.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano1E.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano1F.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano1G.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano2A.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano2B.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano2C.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano2D.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano2E.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano2F.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano2G.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano3A.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano3B.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano3C.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano3D.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano3E.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano3F.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano3G.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano4A.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano4B.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano4C.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano4D.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano4E.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano4F.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano4G.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano5A.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano5B.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano5C.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano5D.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano5E.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano5F.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano5G.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano6A.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano6B.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano6C.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano6D.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano6E.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano6F.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano6G.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano7A.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano7B.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano7C.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano7D.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano7E.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano7F.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano7G.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano8A.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano8B.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano8C.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano8D.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano8E.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano8F.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\PianoAll\Piano8G.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\String\StringA.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\String\StringB.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\String\StringC.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\String\StringD.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\String\StringE.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\String\StringF.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\String\StringG.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\WoodWind\WoodWindA.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\WoodWind\WoodWindB.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\WoodWind\WoodWindC.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\WoodWind\WoodWindD.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\WoodWind\WoodWindE.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\WoodWind\WoodWindF.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="..\ColorMain\WoodWind\WoodWindG.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

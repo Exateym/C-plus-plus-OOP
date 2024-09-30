@@ -1,0 +1,39 @@
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Brush options events\Color\ButtonPurple_Click.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\ButtonPurple_Click.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Brush options events\Color\ButtonBlue_Click.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\ButtonBlue_Click.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Brush options events\Color\ButtonCyan_Click.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\ButtonCyan_Click.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Brush options events\Color\ButtonGreen_Click.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\ButtonGreen_Click.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Brush options events\Color\ButtonOrange_Click.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\ButtonOrange_Click.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Brush options events\Color\ButtonRed_Click.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\ButtonRed_Click.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Brush options events\Color\ButtonYellow_Click.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\ButtonYellow_Click.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Brush options events\Shape\numericUpDownBrushSize_ValueChanged.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\numericUpDownBrushSize_ValueChanged.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Brush options events\Shape\numericUpDownLength_ValueChanged.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\numericUpDownLength_ValueChanged.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Brush options events\Shape\numericUpDownWidth_ValueChanged.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\numericUpDownWidth_ValueChanged.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Brush options events\Shape\radioButtonCircle_CheckedChanged.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\radioButtonCircle_CheckedChanged.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Brush options events\Shape\radioButtonDraw_CheckedChanged.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\radioButtonDraw_CheckedChanged.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Brush options events\Shape\radioButtonErase_CheckedChanged.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\radioButtonErase_CheckedChanged.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Brush options events\Shape\radioButtonLine_CheckedChanged.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\radioButtonLine_CheckedChanged.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Brush options events\Shape\radioButtonSquare_CheckedChanged.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\radioButtonSquare_CheckedChanged.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Brush options events\Shape\radioButtonTriangle_CheckedChanged.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\radioButtonTriangle_CheckedChanged.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Brush options events\Sound\comboBoxInstruments_SelectedIndexChanged.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\comboBoxInstruments_SelectedIndexChanged.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\buttonCreate_Click.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\buttonCreate_Click.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Canvas events\pictureBoxCanvas_MouseDown.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\pictureBoxCanvas_MouseDown.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Canvas events\pictureBoxCanvas_MouseMove.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\pictureBoxCanvas_MouseMove.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Canvas events\pictureBoxCanvas_MouseUp.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\pictureBoxCanvas_MouseUp.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Canvas events\pictureBoxCanvas_Paint.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\pictureBoxCanvas_Paint.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Canvas events\pictureBoxCanvas_SizeChanged.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\pictureBoxCanvas_SizeChanged.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Canvas menu\canvasToolStripMenuItem_Click.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\canvasToolStripMenuItem_Click.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Canvas menu\clearCanvasToolStripMenuItem_Click.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\clearCanvasToolStripMenuItem_Click.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Canvas menu\createToolStripMenuItem_Click.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\createToolStripMenuItem_Click.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Canvas menu\openFileToolStripMenuItem_Click.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\openFileToolStripMenuItem_Click.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Canvas menu\saveAsToolStripMenuItem_Click.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\saveAsToolStripMenuItem_Click.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Sound menu\freeToolStripMenuItem_Click.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\freeToolStripMenuItem_Click.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Sound menu\steptsToolStripMenuItem_Click.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\steptsToolStripMenuItem_Click.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Sound Visualisation\buttonShowVisualisation_Click.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\buttonShowVisualisation_Click.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Sound Visualisation\buttonSoundDiagram_Click.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\buttonSoundDiagram_Click.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Sound Visualisation\comboBoxSoundDiagramInstrument_SelectedIndexChanged.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\comboBoxSoundDiagramInstrument_SelectedIndexChanged.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Sound Visualisation\numericUpDownSoundDiagramOctave_ValueChanged.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\numericUpDownSoundDiagramOctave_ValueChanged.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Test knowledge\buttonCheckResult_Click.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\buttonCheckResult_Click.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Test knowledge\buttonStartGame_Click.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\buttonStartGame_Click.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\Events\Test knowledge\exerciseToolStripMenuItem_Click.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\exerciseToolStripMenuItem_Click.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\MyForm.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\MyForm.obj
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cpp;C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.obj

@@ -1,0 +1,4 @@
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\Risovalka.vcxproj.AssemblyReference.cache
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\Risovalka.MyForm.resources
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\Risovalka.vcxproj.GenerateResource.cache
+C:\Разное\Учёба\CreativeProjectAlmost\Risovalka\x64\Debug\Risovalka.exe
